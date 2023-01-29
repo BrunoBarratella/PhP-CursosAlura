@@ -1,0 +1,20 @@
+{
+    "name": "buscador-cursos/brunobarratella",
+    "description": "Busca cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BuscadorCursos\\Brunobarratella\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Barratella",
+            "email": "brubarratella@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.1"
+    }
+}
